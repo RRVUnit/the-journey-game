@@ -51,6 +51,7 @@ class Messenger(object):
 
     def demo_attachment(self, channel_id):
         txt = "Beep Beep Boop is a ridiculously simple hosting platform for your Slackbots."
+
         attachment = {
             "pretext": "We bring bots to life. :sunglasses: :thumbsup:",
             "title": "Host, deploy and share your bot in seconds.",
